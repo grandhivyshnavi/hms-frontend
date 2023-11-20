@@ -1,0 +1,25 @@
+table {
+  margin: 0px auto;
+  width: 75%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #808080;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+

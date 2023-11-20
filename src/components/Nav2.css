@@ -1,0 +1,26 @@
+/* Nav.css */
+.navbar {
+    background-color: #333; /* Change the background color as needed */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .navbar-brand {
+    color: white; /* Change the text color as needed */
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    margin-left: auto; /* Move the links to the right */
+  }
+  
+  .nav-link {
+    margin-left: 10px;
+    color: white; /* Change the text color as needed */
+    text-decoration: none;
+  }
+  
