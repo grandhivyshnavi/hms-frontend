@@ -27,7 +27,7 @@ function PatientAdminListRow(props) {
             <td>{bloodGroup}</td>
             <td style={{ display: 'flex', justifyContent: 'center' }}>
                 <button style={buttonStyle}>
-                    <Link style={linkStyle} to={"/edit-patient/" + _id}>Edit</Link>
+                    <Link style={linkStyle} to={"/edit-patientadmin/" + _id}>Edit</Link>
                 </button>
                 <button onClick={handleClick} style={{...buttonStyle, marginLeft: '5px', backgroundColor: '#dc3545'}}>Delete</button>
             </td>
