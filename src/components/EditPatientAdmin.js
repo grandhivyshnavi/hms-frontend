@@ -36,7 +36,7 @@ function EditPatientAdmin() {
             doj: newData[5] || data.doj,
             bloodGroup: newData[6] ||data.bloodGroup
         };
-        Axios.put("http://localhost:8000/patientadminRoute/update-patientadmin/" + id, updatedData)
+        Axios.put("https://hms-deployment-backend.onrender.com/patientadminRoute/update-patientadmin/" + id, updatedData)
             .then((res) => {
                 if (res.status === 200)
                     alert("Recorded updated successfully");
