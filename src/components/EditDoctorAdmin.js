@@ -33,7 +33,7 @@ function EditDoctorAdmin() {
             contact: newData[2] || data.contact,
             specialization: newData[3] || data.specialization,
         };
-        Axios.put("http://localhost:8000/doctoradminRoute/update-doctoradmin/" + id, updatedData)
+        Axios.put("https://hms-deployment-backend.onrender.com/doctoradminRoute/update-doctoradmin/" + id, updatedData)
             .then((res) => {
                 if (res.status === 200)
                     alert("Recorded updated successfully");
